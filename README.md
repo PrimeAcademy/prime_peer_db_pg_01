@@ -14,6 +14,11 @@ Next, run 'npm install'.
 Then, with postgres already running, run 'node server/database/database.js' in the command line. Take a close look
 at what that file is doing, and see if you can make the connection of how this line is working.
 
+Update:
+Next, start up your server, open another terminal window.
+Run this in that command line:
+curl --data "text=test&complete=false" http://127.0.0.1:3000/api/todos
+
 Fire up the app. Note that the app is not running on port 5000, find what port it is running on. Then play with the
 application to get a sense of how its all working.
 
