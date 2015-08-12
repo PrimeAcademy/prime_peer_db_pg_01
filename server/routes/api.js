@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var pg = require('pg');
-var connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/todo';
+var connectionString = process.env.DATABASE_URL || 'postgres://localhost:5432/example_database';
 
 router.post('/todos', function(req, res) {
     var results = [];
