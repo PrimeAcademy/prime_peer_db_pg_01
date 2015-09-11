@@ -10,13 +10,12 @@ challenge should be a list of learned things.
 
 Go ahead and copy this repo to your computer. Open it up in Webstorm.
 
-Next, run 'npm install'.
-Then, with postgres already running, run 'node server/database/database.js' in the command line. Take a close look
+1. Next, run 'npm install'.
+2. Make sure postgres is running.
+3. Run 'node server/database/database.js' in the command line. Take a close look
 at what that file is doing, and see if you can make the connection of how this line is working.
-
-Update:
-Next, start up your server, open another terminal window.
-Run this in that command line:
+4. Start your server.
+5. Open another terminal window and run this command 
 curl --data "text=test&complete=false" http://127.0.0.1:3000/api/todos
 
 Fire up the app. Note that the app is not running on port 5000, find what port it is running on. Then play with the
